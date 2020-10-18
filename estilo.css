@@ -7,6 +7,7 @@ body {
 
 h1 {
     color: #fff;
+    background-color: #cdffc8;
     text-transform: uppercase;
     padding: 75px 25px;
     text-align: center;
@@ -17,4 +18,5 @@ h1 {
 
 h2 {
     color: rgb(0, 0, 0);
+    background-color: #cdffc8;
 }
