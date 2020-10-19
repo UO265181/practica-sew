@@ -1,22 +1,26 @@
 body {
-    font: 400 15px Tahoma, sans-serif;
+    font: 400 100% Tahoma, sans-serif;
     line-height: 1.8;
     color: #363636;
     background-color: #cdffc8;
 }
 
 h1 {
-    color: #fff;
+    color: white;
     background-color: #cdffc8;
     text-transform: uppercase;
     padding: 75px 25px;
     text-align: center;
-    background-image: url(fondo.png);
+    background-image: url(multimedia/fondo.png);
     background-repeat: repeat-x;
     background-position: center;
 }
 
 h2 {
-    color: rgb(0, 0, 0);
+    color: black;
     background-color: #cdffc8;
+}
+
+p {
+    text-align: justify;
 }
