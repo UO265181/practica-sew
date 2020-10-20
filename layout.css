@@ -40,3 +40,10 @@ footer {
     display: block;
     margin: 0 auto;
 }
+
+
+/*Especificidad 0 0 1*/
+
+p {
+    margin-right: 3%;
+}
