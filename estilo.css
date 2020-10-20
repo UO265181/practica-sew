@@ -1,3 +1,5 @@
+/*Especificidad 0 0 1*/
+
 body {
     font: 400 100% Tahoma, sans-serif;
     line-height: 1.8;
@@ -5,9 +7,12 @@ body {
     background-color: #cdffc8;
 }
 
+
+/*Especificidad 0 0 1*/
+
 h1 {
     color: white;
-    background-color: #cdffc8;
+    background-color: black;
     text-transform: uppercase;
     padding: 75px 25px;
     text-align: center;
@@ -16,11 +21,78 @@ h1 {
     background-position: center;
 }
 
+
+/*Especificidad 0 0 1*/
+
 h2 {
     color: black;
     background-color: #cdffc8;
 }
 
+
+/*Especificidad 0 1 0*/
+
+.imgDer {
+    float: right;
+}
+
+
+/*Especificidad 0 1 1*/
+
+.vResumen video {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+/*Especificidad 0 1 1*/
+
+.vResumen h3 {
+    text-align: center;
+}
+
+
+/*Especificidad 0 0 1*/
+
 p {
     text-align: justify;
+}
+
+
+/*Especificidad 0 0 1*/
+
+footer p {
+    font-size: 75%;
+    color: #2a5227;
+}
+
+
+/*Especificidad 0 0 1*/
+
+table {
+    position: absolute;
+    line-height: 1.7;
+    text-align: center;
+    width: 30%;
+}
+
+
+/*Especificidad 0 0 1*/
+
+table,
+th,
+td {
+    border: 0.1em solid #2a5227;
+    border-collapse: collapse;
+    color: black;
+    background-color: white;
+}
+
+
+/*Especificidad 0 0 1*/
+
+th {
+    padding: 0.5em;
+    background-color: #50a04a;
 }
