@@ -1,0 +1,42 @@
+/*Especificidad 0 0 1*/
+
+body {
+    display: inline;
+}
+
+
+/*Especificidad 0 0 1*/
+
+main {
+    margin-left: 3%;
+}
+
+
+/*Especificidad 0 0 1*/
+
+header {
+    margin-top: 0%;
+}
+
+
+/*Especificidad 0 0 2*/
+
+nav,
+footer {
+    margin-left: 1%;
+}
+
+
+/*Especificidad 0 1 0*/
+
+.imgDer {
+    float: right;
+}
+
+
+/*Especificidad 0 1 1*/
+
+.vResumen video {
+    display: block;
+    margin: 0 auto;
+}

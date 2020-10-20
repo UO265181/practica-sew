@@ -30,19 +30,10 @@ h2 {
 }
 
 
-/*Especificidad 0 1 0*/
-
-.imgDer {
-    float: right;
-}
-
-
 /*Especificidad 0 1 1*/
 
 .vResumen video {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
+    border: 1px solid #2a5227;
 }
 
 
@@ -60,7 +51,7 @@ p {
 }
 
 
-/*Especificidad 0 0 1*/
+/*Especificidad 0 0 2*/
 
 footer p {
     font-size: 75%;
@@ -71,14 +62,14 @@ footer p {
 /*Especificidad 0 0 1*/
 
 table {
-    position: absolute;
     line-height: 1.7;
     text-align: center;
     width: 30%;
+    margin-bottom: 2%;
 }
 
 
-/*Especificidad 0 0 1*/
+/*Especificidad 0 0 3*/
 
 table,
 th,
